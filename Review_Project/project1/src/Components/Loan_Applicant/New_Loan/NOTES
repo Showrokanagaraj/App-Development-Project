@@ -1,0 +1,62 @@
+const express = require('express');
+const bodyParser = require('body-parser');
+const ExcelJS = require('exceljs');
+const cors = require('cors'); // Add this line
+
+const app = express();
+const port = 3002;
+
+app.use(cors()); // Add this line
+app.use(bodyParser.json());
+
+app.post('/submit-loan', async (req, res) => {
+  const formData = req.body;
+
+  const workbook = new ExcelJS.Workbook();
+  const sheet = workbook.addWorksheet('Loan Applications');
+
+  sheet.columns = [
+    { header: 'First Name', key: 'firstName', width: 20 },
+    { header: 'Last Name', key: 'lastName', width: 20 },
+    { header: 'Email', key: 'email', width: 30 },
+    { header: 'Gender', key: 'gender', width: 10 },
+    { header: 'Need Loan', key: 'needLoan', width: 10 },
+    { header: 'Purpose', key: 'purpose', width: 30 },
+    { header: 'Loan Amount', key: 'loanAmount', width: 15 },
+    { header: 'Interest Rate', key: 'interestRate', width: 20 },
+    { header: 'Communication Address', key: 'commAddress', width: 30 },
+    { header: 'Permanent Address', key: 'permAddress', width: 30 },
+    { header: 'Processing Charge', key: 'processingCharge', width: 20 },
+    { header: 'Comments', key: 'comments', width: 30 }
+  ];
+
+  sheet.addRow({
+    firstName: formData.firstName,
+    lastName: formData.lastName,
+    email: formData.email,
+    gender: formData.gender,
+    needLoan: formData.needLoan,
+    purpose: formData.purpose,
+    loanAmount: formData.loanAmount,
+    interestRate: formData.interestRate,
+    commAddress: formData.commAddress,
+    permAddress: formData.permAddress,
+    processingCharge: formData.processingCharge,
+    comments: formData.comments
+  });
+
+  await workbook.xlsx.writeFile('A:/APP_DEVELOPMENT/project1/Loan_Applications.xlsx');
+  console.log('File created');
+  res.send('Data saved to Excel file');
+});
+
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});
+
+
+// PROBLEM statement
+// objective
+// solution
+// json server
+// CONTEXTAPI

@@ -1,0 +1,58 @@
+.admin-view-loan-page {
+    padding: 20px;
+  }
+  
+  .loan-data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .loan-data-table th, .loan-data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .loan-data-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+  }
+  
+  .loan-data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .loan-data-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .loan-data-table tr.approved {
+    background-color: #d4edda; /* Light green background for approved */
+  }
+  
+  .loan-data-table tr.rejected {
+    background-color: #f8d7da; /* Light red background for rejected */
+  }
+  
+  .approve-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .reject-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .approve-btn:disabled,
+  .reject-btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  

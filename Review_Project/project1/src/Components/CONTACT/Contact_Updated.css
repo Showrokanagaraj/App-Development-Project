@@ -1,0 +1,83 @@
+.contactBackground {
+    background-image: url('../Validation/source/ups.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Ensure positioning for the .HEAD element */
+  }
+  
+  .HEAD {
+    width: auto;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 20px; /* Position the heading 20px from the top */
+    left: 50%;
+    transform: translateX(-50%); /* Center the heading horizontally */
+    font-size: 24px; /* Adjust font size as needed */
+    color: black; /* Adjust color as needed */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional background color for better readability */
+    padding: 10px; /* Optional padding */
+    border-radius: 10px; /* Optional border radius */
+    z-index: 1; /* Ensure the heading is above other elements */
+  }
+  
+  .container0s1 {
+    width: 20%;
+    height: auto;
+    border-radius: 20px;
+    justify-content: center;
+    top: 40%;
+    transform: translateY(-40%);
+    left: 100px; /* Center horizontally */
+    transform: translateX(-40%); /* Move left by half of its width */
+    align-items: center;
+    background-color: rgb(127, 227, 118);
+    position: absolute; /* Ensure the container is positioned absolutely */
+  }
+  
+  .container01 {
+    width: 30%;
+    height: 500px;
+    border-radius: 20px;
+    justify-content: center;
+    top: 47%;
+    /* padding-top: 20%; */
+    transform: translateY(-40%);
+    left: 350px; /* Adjust this value to position as needed */
+    align-items: center;
+    box-shadow: 0 0 50px greenyellow;
+    background-color: rgb(151, 231, 143);
+    position: absolute; /* Ensure the container is positioned absolutely */
+    padding: 20px; /* Optional padding for better layout */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .textA1 {
+    margin-bottom: 20px; /* Space between input fields */
+  }
+  
+  textarea {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .Contact_Submit {
+    border-radius: 20px;
+    border: 2px solid transparent; /* Border styling */
+    border-left-color: red;
+    border-right-color: aqua;
+    border-top-color: blueviolet;
+    border-bottom-color: yellow;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: white; /* Button background color */
+    font-size: 16px;
+  }
+  

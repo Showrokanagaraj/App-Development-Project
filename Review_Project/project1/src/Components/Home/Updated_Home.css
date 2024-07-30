@@ -1,0 +1,222 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.HEADS{
+    /* background-image: url('../Validation/source/'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .HOME_ABOUT{
+    height: 60px;
+    width: 90%;
+    /* background-color: rgb(205, 255, 131); */
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    /* box-shadow: 0 0 30px purple; */
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 59%;
+    left: 6%;
+  }
+  .ABOUTT {
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: auto;
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+  }
+  
+  .ROLL_HERE_ABOUT {
+    padding: 10px;
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  
+  .scroll-button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .scroll-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+
+.Top_NavBar {
+    height: 60px;
+    width: 90%;
+    background-color: rgb(205, 255, 131);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px purple;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    /* color: aqua; */
+}
+
+.Top_NavBar ul {
+    display: flex;
+    justify-content: space-around; 
+    list-style: none; /* Remove bullet points */
+    width: 100%; /* Make the ul take the full width of the navbar */
+    padding: 0;
+    margin: 0;
+}
+
+.Top_NavBar li {
+    flex: 1; /* Distribute space equally among the list items */
+    text-align: center; /* Center text in each list item */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.Top_NavBar  li:hover {
+    background-color:rgb(21, 154, 67); /* Change background color to red on hover */
+    border-radius: 30px;
+    font-size: 30px;
+    /* background-color: red; */
+
+
+}
+.Top_NavBar a:hover{
+    color: aliceblue;
+}
+
+
+.Top_NavBar a {
+    color: purple; /* Change link color */
+    text-decoration: none; /* Remove underline from links */
+    display: block;
+    padding: 20px 0; /* Adjust padding as needed */
+}
+.Log_out
+{
+    height: 60px;
+    width: 50px;
+    background-color:rgb(205, 255, 131) ;
+    border-radius: 20px;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* position: absolute; */
+}
+.Log_out:hover{
+    background-color:red ;
+    color: white;
+    cursor: pointer;
+}
+.Log{
+    background-color: black;
+    color: aliceblue;
+    border-radius:20px;
+    cursor: pointer;
+}
+.Log:hover{
+    background-color: red;
+    /* color: aliceblue;
+    border-radius:20px;
+    cursor: pointer; */
+}
+/* .Log{
+    background-color: rgb(205, 255, 131);
+} */
+
+/* .NewLaunches p, .NewLaunches h3 ,h4{ */
+.NewLaunches h4 {
+    color: skyblue;
+}
+.NewLaunches h2 {
+    color: grey;
+}
+.h2{
+    text-align: center;
+    align-items: center;
+    /* width: 50%; */
+    
+    
+}
+.LINKS{
+    height: auto;
+    width: 50%;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    /* top: 5%; */
+    left: 25%;
+}
+
+.Part_2{
+    padding-top: 15%;
+}
+.Box2{
+    height: 500px;
+    width: 80%;
+    box-sizing: 20%;
+    text-align: center;
+    background-color:rgb(188, 188, 188);
+    position: absolute;
+    /* top: 100px; */
+    left: 10%;
+}
+.NewLaunches p, .NewLaunches  p{
+    display: block; 
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    /* color: skyblue; */
+}
+.NewLaunches{
+    height: 2000px;
+    width: 80%;
+    /* background-color:rgb(205, 255, 131); */
+    background-color:rgb(203, 203, 203);
+    /* top: 20%; */
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center;  */
+    position: absolute;
+    top: 100px;
+    left: 10%;
+}
+.Box2 h2{
+    color: black;
+}
+.con1{
+    background-color: rgb(91, 90, 90);
+}
+.Notice{
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+}
+.con2{
+    background-color:rgb(91, 90, 90) ;
+}
+.con3{
+    background-color:rgb(91, 90, 90) ;
+}

@@ -1,0 +1,91 @@
+
+@import url("https://fonts.googleapis.com/css2? family=Poppins:wght@300;400;500;600;700;800;900& display=swap");
+  
+
+body{
+    /* background-image: url("./source/Float.png") ; */
+   
+    
+    /* background-repeat:no-repeat; */
+    /* background: transparent; */
+    /* background-size: cover;  */
+
+}
+
+*  {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+    }
+/* LoginPage.css */
+.loginContainer {
+    background-image: url('./source/Green_Harvey.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.Cosntainer {
+     background: transparent;
+    background-color: aliceblue; 
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    /* centers horizontally */
+    align-items: center; /* centers vertically */
+    position: absolute;
+    /* top: 20%; */
+    /* left: 35%; */
+    /* background-color: skyblue; */
+    color: grey;
+    /* background-image: url("./source/Floating_Rock4.jpg"); */
+    border: 3px solid black;
+
+    /* rengesh */
+    border-radius: 20px;
+    background-image: none;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    
+    
+}
+.COntainer{
+    background: transparent;
+  background-color: aliceblue;
+  width: 100px;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: grey;
+  border: 3px solid black;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.input-fieldgo{
+    border-radius: 20px;
+    border:2px solid yellow;
+    height: 45px;
+    cursor: pointer;
+    background-color: grey;
+    /* background: transparent 20%; */
+    
+}
+
+.input-field{
+    border-radius: 20px;
+    border:2px solid skyblue;
+    height: 45px;
+    cursor: pointer;
+    
+}

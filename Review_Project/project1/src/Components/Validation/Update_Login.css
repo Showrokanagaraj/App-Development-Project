@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  /* global styles */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.loginContainer {
+  background-image: url('./source/Green_Harvey.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  background: transparent;
+  background-color:rgb(205, 255, 131);
+  width: 400px; /* Adjust the width */
+  height: 350px; /* Adjust the height */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: grey;
+  border: 3px solid black;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-fieldgo {
+  border-radius: 20px;
+  border: 2px solid yellow;
+  height: 45px;
+  cursor: pointer;
+  background-color: grey;
+}
+
+.input-field {
+  border-radius: 20px;
+  border: 2px solid skyblue;
+  height: 45px;
+  cursor: pointer;
+}

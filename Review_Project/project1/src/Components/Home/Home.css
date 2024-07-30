@@ -1,0 +1,126 @@
+/* 
+body{
+    background-image: url("../Validation/source/light-blue.jpg"); 
+   
+    
+    background-repeat:no-repeat;
+  
+    background-size: cover; 
+
+}
+
+*  {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+    }
+
+
+.Top_NavBar{
+    height: 60px;
+    width: 70%;
+    background-color: grey;
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px black;
+   
+    
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+
+    top: 5%;
+    left: 10%;
+
+
+}
+
+.Top_NavBar ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.HEAD .Top_NavBar ul{
+    display: flex;
+} */
+
+body {
+    /* background-image: url("../Validation/source/Float.png");  */
+    /* background-repeat: no-repeat;
+    background-size: cover;  */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.Top_NavBar {
+    height: 60px;
+    width: 90%;
+    /* size: 20px; */
+    /* text-size-adjust: 20px; */
+    background-color: orange;
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px purple;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    /* transform: translateX(-50%); */
+}
+
+.Top_NavBar ul {
+    display: flex;
+    justify-content: space-around; 
+    list-style: none; /* Remove bullet points */
+    width: 100%; /* Make the ul take the full width of the navbar */
+    padding: 0;
+    margin: 0;
+}
+
+.Top_NavBar li {
+    flex: 1; /* Distribute space equally among the list items */
+    text-align: center; /* Center text in each list item */
+}
+
+.Top_NavBar a {
+    color: purple; /* Change link color */
+    text-decoration: none; /* Remove underline from links */
+    display: block;
+    padding: 20px 0; /* Adjust padding as needed */
+}
+
+
+.Log_out
+{
+    height: 60px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* position: absolute; */
+}
+.Log{
+    background-color: black;
+    color: aliceblue;
+    border-radius:50%;
+}
+.h2{
+        text-align: center;
+        align-items: center;
+        
+}

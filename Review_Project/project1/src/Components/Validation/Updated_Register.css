@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  /* global styles */
+}
+
+.RegisterContainer {
+  background-image: url('./source/Green_Harvey.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  background:rgb(205, 255, 131); /* Updated background color */
+  width: 400px; /* Adjust the width */
+  height: 350px; /* Adjust the height */
+  /* padding-right: 40%; */
+  /* right: 50%; */
+  /* left: 4%; */
+  top: 40%;
+  transform: translateY(-40%);
+  margin-top: 100px;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-40%); /* Move left by half of its width */
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 22%;
+  left: 60%;
+  color: rgb(45, 183, 32); /* Text color */
+  border: 3px solid greenyellow;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 50px greenyellow;
+}
+
+.input-fieldgo {
+  border-radius: 20px;
+  border: 2px solid green;
+  height: 45px;
+  cursor: pointer;
+  color: black;
+  background-color: greenyellow;
+}
+
+.input-field {
+  border-radius: 20px;
+  border: 2px solid greenyellow;
+  height: 45px;
+  cursor: pointer;
+}

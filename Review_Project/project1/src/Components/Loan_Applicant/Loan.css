@@ -1,0 +1,47 @@
+.center-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-background {
+  background-color: rgb(143, 240, 143);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Loan_BackGround {
+  width: 300px; /* Adjust width as needed */
+  height: auto;
+  background-color: rgb(31, 198, 56);
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Ensure content stacks vertically */
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 20px; /* Add padding for better appearance */
+}
+
+.Loan_Button {
+  background-color: white; /* Change button color to white */
+  border: 2px solid aliceblue; /* Add a solid border */
+  border-radius: 20px;
+  color: green; /* Change text color to green for contrast */
+  padding: 10px 20px; /* Add some padding for better appearance */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth color change */
+  width: 80%;
+  max-width: 200px; /* Adjust max-width as needed */
+  margin: 10px 0; /* Add margin for spacing between buttons */
+  box-shadow: 0 0 50px greenyellow;
+}
+
+.Loan_Button:hover {
+  background-color: green; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}

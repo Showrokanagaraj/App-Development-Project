@@ -1,0 +1,64 @@
+.contactBackground{
+  background-image: url('../Validation/source/ups.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HEAD{
+  
+  width: 5px;
+  height: auto;
+  /* display:contents; */
+  /* border-radius: 20px; */
+  /* justify-content: center; */
+  top:10px;
+  transform: translateY(-40%);
+  /* margin-top: 100px; */
+  left: 100px; /* Center horizontally */
+  transform: translateX(-40%); /* Move left by half of its width */
+  /* left: 20px; */
+  /* align-items: center; */
+  /* background-color: rgb(127, 227, 118); */
+}
+.container0s1{
+  width: 20%;
+  height: auto;
+  /* display:contents; */
+  border-radius: 20px;
+  justify-content: center;
+  top: 40%;
+  transform: translateY(-40%);
+  /* margin-top: 100px; */
+  left: 100px; /* Center horizontally */
+  transform: translateX(-40%); /* Move left by half of its width */
+  /* left: 20px; */
+  align-items: center;
+  background-color: rgb(127, 227, 118);
+}
+.container01 {
+  width: 30%;
+  height: auto;
+  border-radius: 20px;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-40%);
+  left: 350px; /* Move container 20px from the left of the page */
+  align-items: center;
+  box-shadow: 0 0 50px greenyellow;
+  background-color: rgb(151, 231, 143);
+  position: absolute; /* Ensure the container is positioned absolutely */
+}
+.Contact_Submit{
+  border-radius: 20px;
+  border-left-color: red;
+  border-right-color: aqua;
+  border-top-color: blueviolet;
+  border-bottom-color: yellow;
+  cursor: pointer;
+  /* box-shadow: 0 0 50px red; */
+
+}
+

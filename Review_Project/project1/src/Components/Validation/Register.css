@@ -1,0 +1,89 @@
+
+@import url("https://fonts.googleapis.com/css2? family=Poppins:wght@300;400;500;600;700;800;900& display=swap");
+  
+
+body{
+    /* background-image: url("./source/Float.png");  */
+   
+    
+    /* background-repeat:no-repeat; */
+    /* background: transparent; */
+    /* background-size: cover;  */
+
+}
+.RegisterContainer {
+    background-image: url('./source/Green_Harvey.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+*  {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+    }
+    .REGISTER
+    {
+       
+          background-image: url("./source/Float.png"); 
+   
+    background-color: aquamarine;
+    background-repeat:no-repeat;
+    /* background: transparent; */
+    background-size: cover; 
+    }
+
+
+.Container {
+     background: transparent;
+    /* background-color: aliceblue;  */
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    /* centers horizontally */
+    align-items: center; /* centers vertically */
+    position: absolute;
+    top: 22%;
+    left: 60%;
+    /* background-color: skyblue; */
+    color:rgb(45, 183, 32);
+    /* background-image: url("./source/Floating_Rock4.jpg"); */
+    border: 3px solid greenyellow;
+    /* RENESG */
+    border-radius: 20px;
+    background-image: none;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 50px greenyellow;
+    
+    
+}
+.input-fieldgo{
+    border-radius: 20px;
+    border:2px solid green;
+    height: 45px;
+    cursor: pointer;
+    color: black;
+    background-color: greenyellow;
+    /* background: transparent 20%; */
+    
+}
+/* .Full_Background{
+    width: 100%;
+    background-image: url("./source/light-blue.jpg");
+    height: 100%;
+} */
+
+.input-field{
+    border-radius: 20px;
+    border:2px solid greenyellow;
+    height: 45px;
+    cursor: pointer;
+    
+}

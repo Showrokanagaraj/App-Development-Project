@@ -1,0 +1,32 @@
+/* Ensure the full height of the viewport is used for centering */
+.Exists_Loan_Container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Make this container relative for absolute positioning */
+}
+
+.Exits_Container {
+    text-align: center; /* Center the text inside the container */
+    padding: 20px; /* Optional: Add some padding around the container */
+    border: 1px solid #ccc; /* Optional: Add border for better visual */
+    border-radius: 8px; /* Optional: Rounded corners for the container */
+    background-color: #f9f9f9; /* Optional: Background color for the container */
+    position: absolute; /* Use absolute positioning */
+    top: 20px; /* Position 20px from the top */
+    right: 40%; /* Position 20px from the left */
+}
+  
+input {
+    display: block;
+    margin: 10px auto; /* Center the inputs and give spacing */
+}
+
+button {
+    margin-top: 10px; /* Add spacing above the button */
+}
+
+.DISPLAY_STATUS {
+    margin-top: 10px; /* Add spacing above the status display */
+}

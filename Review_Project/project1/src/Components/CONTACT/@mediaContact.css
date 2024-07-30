@@ -1,0 +1,122 @@
+.contactBackground {
+    background-image: url('../Validation/source/Final_Yellow.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .HEAD {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container01 {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px greenyellow;
+    background-color: rgb(151, 231, 143);
+    position: relative;
+    top: 10%;
+    right: 20%;
+    transform: translateY(-10%);
+  }
+  
+  .textA1 {
+    margin-bottom: 15px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .Contact_Submit {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .Contact_Submit:hover {
+    background-color: #45a049;
+  }
+  
+  .Go_back {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    /* width: 100%; */
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    right: 10%;
+    transition: background-color 0.3s;
+    margin-right: 20px; /* Move the button to the right by 20px */
+  }
+  
+  /* Mobile View */
+  @media (max-width: 600px) {
+    .container01 {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .HEAD {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Laptop View */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .container01 {
+      width: 70%;
+      padding: 20px;
+    }
+  
+    .HEAD {
+      font-size: 1.75rem;
+    }
+  }
+  
+  /* Desktop View */
+  @media (min-width: 1025px) {
+    .container01 {
+      width: 50%;
+      padding: 20px;
+    }
+  
+    .HEAD {
+      font-size: 2rem;
+    }
+  }
+
+  .Goback{
+    background: transparent;
+    background-color:rgb(205, 255, 131);
+    width: 0px; /* Adjust the width */
+    height: 0px; /* Adjust the height */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20%;
+    top: 93%;
+    color: grey;
+    border: 3px solid black;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
